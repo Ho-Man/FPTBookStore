@@ -670,9 +670,39 @@
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="images\combo1.jpg" />
-    <Content Include="images\combo2.jpg" />
-    <Content Include="images\combo3.jpg" />
+    <Content Include="images\A Common-Sense Guide to Data Structures and Algorithms.jpg" />
+    <Content Include="images\A Silent Voice.jpg" />
+    <Content Include="images\ADOLESCENCE.jpg" />
+    <Content Include="images\Background1.jpg" />
+    <Content Include="images\Complete IELTS.jpg" />
+    <Content Include="images\Dance of Dreams.jpg" />
+    <Content Include="images\Darksoul.jpg" />
+    <Content Include="images\Drstone.jpg" />
+    <Content Include="images\Drstone13.jpg" />
+    <Content Include="images\Drstone3.jpg" />
+    <Content Include="images\Empire Of Storms.jpg" />
+    <Content Include="images\English Grammar.jpg" />
+    <Content Include="images\I Have Lost My Way.jpg" />
+    <Content Include="images\IfItBleeds.jpg" />
+    <Content Include="images\it.jpg" />
+    <Content Include="images\Looking.jpg" />
+    <Content Include="images\Naruto.jpg" />
+    <Content Include="images\neverland-15.jpg" />
+    <Content Include="images\overlord.jpg" />
+    <Content Include="images\Return king.jpg" />
+    <Content Include="images\Seraph Of The End - Episode 1.jpg" />
+    <Content Include="images\Seraph Of The End - Episode 11.jpg" />
+    <Content Include="images\Tales from the Scaremaster.jpg" />
+    <Content Include="images\The Promised Neverland.jpg" />
+    <Content Include="images\The Sun Is Also A Star.jpg" />
+    <Content Include="images\The Well Of Ascension.jpg" />
+    <Content Include="images\Theprioryoftheorange.jpg" />
+    <Content Include="images\Thestand.jpg" />
+    <Content Include="images\TheTrialsofApollo1.jpg" />
+    <Content Include="images\thewalking.jpg" />
+    <Content Include="images\thien-than-diet-the---seraph-of-the-end-_-tap-21.jpg" />
+    <Content Include="images\ThroneofGlass.jpg" />
+    <Content Include="images\tomuonantuycuacau.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1073,7 +1103,6 @@
     <Content Include="Areas\Admin\Views\Home\Order.cshtml" />
     <Content Include="Areas\Admin\Views\Home\DetailsOrder.cshtml" />
     <Content Include="EmailTemplate\Text.cshtml" />
-    <None Include="Properties\PublishProfiles\123.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1133,6 +1162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

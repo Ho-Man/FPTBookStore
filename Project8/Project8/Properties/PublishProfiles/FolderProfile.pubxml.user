@@ -140,10 +140,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:26</publishTime>
     </File>
     <File Include="bin/Project8.dll">
-      <publishTime>03/09/2022 10:05:54</publishTime>
+      <publishTime>03/09/2022 10:56:49</publishTime>
     </File>
     <File Include="bin/Project8.pdb">
-      <publishTime>03/09/2022 10:05:54</publishTime>
+      <publishTime>03/09/2022 10:56:49</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>03/03/2022 12:11:24</publishTime>
@@ -2716,6 +2716,18 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="images/Background1.jpg">
       <publishTime>03/04/2022 08:33:11</publishTime>
     </File>
+    <File Include="images/Banner1.jpg">
+      <publishTime>03/09/2022 10:50:26</publishTime>
+    </File>
+    <File Include="images/Banner2.jpeg">
+      <publishTime>03/09/2022 10:55:32</publishTime>
+    </File>
+    <File Include="images/Banner2.jpg">
+      <publishTime>03/09/2022 10:37:13</publishTime>
+    </File>
+    <File Include="images/Banner3.jpg">
+      <publishTime>03/09/2022 10:38:47</publishTime>
+    </File>
     <File Include="images/combo1.jpg">
       <publishTime>03/03/2022 12:11:23</publishTime>
     </File>
@@ -2918,7 +2930,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>03/09/2022 10:05:40</publishTime>
+      <publishTime>03/09/2022 10:56:37</publishTime>
     </File>
     <File Include="Views/Home/Payment.cshtml">
       <publishTime>03/03/2022 12:11:24</publishTime>

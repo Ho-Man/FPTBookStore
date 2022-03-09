@@ -318,7 +318,6 @@ C:\FPTBook\FPTBook\Project8\Project8\bin\System.Web.WebPages.Deployment.xml
 C:\FPTBook\FPTBook\Project8\Project8\bin\System.Web.WebPages.Razor.xml
 C:\FPTBook\FPTBook\Project8\Project8\bin\Antlr3.Runtime.pdb
 C:\FPTBook\FPTBook\Project8\Project8\bin\Newtonsoft.Json.xml
-C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csprojAssemblyReference.cache
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csproj.CoreCompileInputs.cache
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csproj.CopyComplete
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\Project8.dll

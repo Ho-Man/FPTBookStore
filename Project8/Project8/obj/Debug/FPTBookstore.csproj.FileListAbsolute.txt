@@ -322,3 +322,4 @@ C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csproj.CoreCompileIn
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csproj.CopyComplete
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\Project8.dll
 C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\Project8.pdb
+C:\FPTBook\FPTBook\Project8\Project8\obj\Debug\FPTBookstore.csprojAssemblyReference.cache

@@ -22,11 +22,7 @@
                                         @Html.PasswordFor(model => model.Password, new { @class = "form-control", @placeholder = "Password" })
                                         @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
                                     </div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Remember?
-                                        </label>
-                                    </div>
+                                  
                                     <div class="form-group">
                                         <button style="background-color:#0094ff" type="submit" class="btn btn-success btn-block">Log in</button>
                                     </div>
@@ -37,7 +33,7 @@
                 </ul>
             </li>
             <li>
-                <a href="/Admin/Login"><i class="fas fa-user-circle" aria-hidden="true" style="color: #525151;"></i></a>
+                <a href="/Admin/Login"><i class="fa fa-user-secret" aria-hidden="true" style="color: #525151;"></i></a>
             </li>
             @Html.Action("CartHeader", "Cart")
     }

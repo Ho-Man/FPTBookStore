@@ -91,7 +91,7 @@ namespace FPTBookstore.Controllers
 
             foreach (var item in sessionCart)
             {
-                var jsonItem = jsonCart.Single(x => x.book.BookID == item.book.BookID);
+                var jsonItem = jsonCart.FirstOrDefault(x => x.book.BookID == item.book.BookID);
                 if (jsonItem != null)
                 {
                     item.Quantity = jsonItem.Quantity;
@@ -304,5 +304,6 @@ namespace FPTBookstore.Controllers
                 , JsonRequestBehavior.AllowGet);
       
         }
+       
     }
 }

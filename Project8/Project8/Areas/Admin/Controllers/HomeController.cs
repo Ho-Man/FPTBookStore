@@ -81,9 +81,16 @@ namespace FPTBookstore.Areas.Admin.Controllers
                     {
                         fileUpload.SaveAs(path);
                     }
-
-                    //execute the image link to the cover image link
-                    book.Image = fileName;
+                   if(!string.Equals(fileName,"jpg",StringComparison.OrdinalIgnoreCase)&&
+                     !string.Equals(fileName, "png", StringComparison.OrdinalIgnoreCase)&&
+                        !string.Equals(fileName, "jpeg", StringComparison.OrdinalIgnoreCase)&&
+                        !string.Equals(fileName, "jpg", StringComparison.OrdinalIgnoreCase))
+                    {
+                         ViewBag.Alert = "Error flie, Please Choose Again";
+                        return View();
+                    }
+                          //execute the image link to the cover image link
+                          book.Image = fileName;
                     //do save to db
                     var result = new AdminProcess().InsertBook(book);
                     if (result > 0)
@@ -94,7 +101,7 @@ namespace FPTBookstore.Areas.Admin.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "add failed.");
+                        ModelState.AddModelError("", "Add Failed.");
                     }
                 }
             }
@@ -124,6 +131,7 @@ namespace FPTBookstore.Areas.Admin.Controllers
 
             return View(book);
         }
+
 
         //POST : /Admin/Home/UpdateBook : perform book update
         //Similar to adding books
@@ -172,6 +180,14 @@ namespace FPTBookstore.Areas.Admin.Controllers
                     }
 
                     book.Image = fileName;
+                    if (!string.Equals(fileName, "jpg", StringComparison.OrdinalIgnoreCase) &&
+                    !string.Equals(fileName, "png", StringComparison.OrdinalIgnoreCase) &&
+                        !string.Equals(fileName, "jpeg", StringComparison.OrdinalIgnoreCase) &&
+                        !string.Equals(fileName, "jpg", StringComparison.OrdinalIgnoreCase))
+                    {
+                        ViewBag.Alert = "Error flie, Please Choose Again";
+                        return View(book);
+                    }
                     var result = new AdminProcess().UpdateBook(book);
                     if (result == 1)
                     {
@@ -335,7 +351,7 @@ namespace FPTBookstore.Areas.Admin.Controllers
                 //initialize object tg
                 var tg = new Author();
 
-                //gán dữ liệu
+                //data assignment
                 tg.AuthorName = model.AuthorName;
                 tg.Hometown = model.Hometown;
                 tg.DateOfBirth = model.DateOfBirth;

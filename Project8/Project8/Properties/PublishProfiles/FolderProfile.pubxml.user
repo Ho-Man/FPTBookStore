@@ -29,7 +29,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/10/2022 12:26:31</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/DetailsUser.cshtml">
-      <publishTime>03/10/2022 12:26:25</publishTime>
+      <publishTime>03/11/2022 09:14:23</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/FeedBack.cshtml">
       <publishTime>03/03/2022 12:11:26</publishTime>
@@ -38,10 +38,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/10/2022 12:26:43</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/Index.cshtml">
-      <publishTime>03/07/2022 08:10:00</publishTime>
+      <publishTime>03/10/2022 19:23:33</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/Order.cshtml">
-      <publishTime>03/03/2022 12:11:26</publishTime>
+      <publishTime>03/10/2022 18:24:16</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/ShowListAuthor.cshtml">
       <publishTime>03/03/2022 12:11:26</publishTime>
@@ -56,13 +56,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:26</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/ShowUser.cshtml">
-      <publishTime>03/03/2022 12:11:26</publishTime>
+      <publishTime>03/10/2022 21:41:12</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/UpdateAuthor.cshtml">
       <publishTime>03/10/2022 12:27:10</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/UpdateBook.cshtml">
-      <publishTime>03/10/2022 12:27:04</publishTime>
+      <publishTime>03/11/2022 11:11:22</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Home/UpdateCategory.cshtml">
       <publishTime>03/10/2022 12:27:16</publishTime>
@@ -140,10 +140,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:26</publishTime>
     </File>
     <File Include="bin/Project8.dll">
-      <publishTime>03/10/2022 12:30:28</publishTime>
+      <publishTime>03/13/2022 16:00:48</publishTime>
     </File>
     <File Include="bin/Project8.pdb">
-      <publishTime>03/10/2022 12:30:28</publishTime>
+      <publishTime>03/13/2022 16:00:48</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>03/03/2022 12:11:24</publishTime>
@@ -2561,7 +2561,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:25</publishTime>
     </File>
     <File Include="Content/Client/js/controller/cartController.js">
-      <publishTime>03/03/2022 12:11:27</publishTime>
+      <publishTime>03/13/2022 13:54:17</publishTime>
     </File>
     <File Include="Content/Client/js/jquery.dataTables.min.js">
       <publishTime>03/03/2022 12:11:25</publishTime>
@@ -2897,19 +2897,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/06/2022 17:09:48</publishTime>
     </File>
     <File Include="Views/Book/ShowAllBook.cshtml">
-      <publishTime>03/06/2022 17:09:48</publishTime>
+      <publishTime>03/13/2022 15:58:25</publishTime>
     </File>
     <File Include="Views/Book/TopDateBook.cshtml">
       <publishTime>03/06/2022 17:09:44</publishTime>
+    </File>
+    <File Include="Views/Book/TopDateBook2.cshtml">
+      <publishTime>03/12/2022 12:34:26</publishTime>
     </File>
     <File Include="Views/Cart/CartHeader.cshtml">
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/Cart/Index.cshtml">
-      <publishTime>03/06/2022 17:07:32</publishTime>
+      <publishTime>03/13/2022 13:56:29</publishTime>
     </File>
     <File Include="Views/Cart/Payment.cshtml">
-      <publishTime>03/06/2022 17:07:32</publishTime>
+      <publishTime>03/10/2022 22:03:00</publishTime>
     </File>
     <File Include="Views/Cart/Success.cshtml">
       <publishTime>03/03/2022 12:11:24</publishTime>
@@ -2933,22 +2936,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>03/09/2022 11:54:30</publishTime>
+      <publishTime>03/12/2022 12:33:59</publishTime>
     </File>
     <File Include="Views/Home/Payment.cshtml">
-      <publishTime>03/03/2022 12:11:24</publishTime>
+      <publishTime>03/10/2022 17:54:50</publishTime>
     </File>
     <File Include="Views/Home/Regulation.cshtml">
-      <publishTime>03/03/2022 12:11:24</publishTime>
+      <publishTime>03/11/2022 10:07:21</publishTime>
     </File>
     <File Include="Views/Home/SearchResult.cshtml">
-      <publishTime>03/03/2022 12:11:24</publishTime>
+      <publishTime>03/13/2022 13:56:31</publishTime>
     </File>
     <File Include="Views/Home/ShowCategory.cshtml">
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/Home/ThemesBook.cshtml">
-      <publishTime>03/10/2022 12:28:54</publishTime>
+      <publishTime>03/10/2022 14:28:06</publishTime>
     </File>
     <File Include="Views/Home/Transport.cshtml">
       <publishTime>03/03/2022 16:22:21</publishTime>
@@ -2957,7 +2960,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/09/2022 11:56:39</publishTime>
+      <publishTime>03/13/2022 15:09:43</publishTime>
     </File>
     <File Include="Views/User/ActivationNotice.cshtml">
       <publishTime>03/03/2022 12:11:24</publishTime>
@@ -2969,16 +2972,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/03/2022 12:11:24</publishTime>
     </File>
     <File Include="Views/User/EditUser.cshtml">
-      <publishTime>03/03/2022 12:11:24</publishTime>
+      <publishTime>03/13/2022 15:12:34</publishTime>
     </File>
     <File Include="Views/User/Login.cshtml">
-      <publishTime>03/09/2022 17:33:14</publishTime>
+      <publishTime>03/11/2022 08:03:15</publishTime>
     </File>
     <File Include="Views/User/LoginPage.cshtml">
-      <publishTime>03/03/2022 12:11:24</publishTime>
+      <publishTime>03/11/2022 08:02:12</publishTime>
     </File>
     <File Include="Views/User/Register.cshtml">
-      <publishTime>03/10/2022 12:29:29</publishTime>
+      <publishTime>03/10/2022 20:02:47</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/03/2022 12:11:23</publishTime>

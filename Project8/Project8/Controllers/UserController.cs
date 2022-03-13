@@ -53,13 +53,14 @@ namespace FPTBookstore.Controllers
                 {
                     kh.Account = model.Account;
                     kh.Password = model.Password;
+                    kh.ConfirmPassword = model.ConfirmPassword;
                     kh.CustomerName = model.CustomerName;
                     kh.Email = model.Email;
                     kh.Address = model.Address;
                     kh.Phone = model.Phone;
                     kh.DateOfBirth = model.DateOfBirth;
                     kh.DateCreate = DateTime.Now;
-                    kh.Status = false;
+                    kh.Status = true;
                     
                     var result = user.InsertUser(kh);
                     
@@ -272,7 +273,7 @@ namespace FPTBookstore.Controllers
             if (ModelState.IsValid)
             {
                 //find account name
-                var result = db.Customers.SingleOrDefault(x => x.Account == model);
+                var result = db.Customers.SingleOrDefault(x =>x.Account == model);
 
                 //return the corresponding data
                 return View(result);

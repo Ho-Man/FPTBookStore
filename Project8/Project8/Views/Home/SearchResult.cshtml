@@ -1,4 +1,4 @@
-﻿@using PagedList;
+﻿ @using PagedList;
 @using PagedList.Mvc;
 @model IPagedList<FPTBookstore.Models.Data.Book>
 
@@ -31,7 +31,7 @@
                             <a style="color:black" class="btn btn-warning" href="/Cart/AddItem/?id=@item.BookID&quantity=1">Buying product</a>
                             @if (item.Price > 0)
                             {
-                                <h4 class="pull-right" style="color:black;">@item.Price.Value.ToString("N0") USD</h4>
+                                <h4 class="pull-right" style="color:black;">@item.Price.Value.ToString("N0") $</h4>
                             }
                             else
                             {

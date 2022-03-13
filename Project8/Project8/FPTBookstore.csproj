@@ -1138,7 +1138,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\ShowCategory.cshtml" />
-    <Content Include="Views\Book\TopDateBook.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Home\ThemesBook.cshtml" />
     <Content Include="Views\Book\Details.cshtml" />
@@ -1164,6 +1163,7 @@
     <Content Include="Views\User\ActivationNotice.cshtml" />
     <Content Include="Views\User\CheckActivationNotification.cshtml" />
     <Content Include="Views\Cart\TrackingOder.cshtml" />
+    <Content Include="Views\Book\TopDateBook2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

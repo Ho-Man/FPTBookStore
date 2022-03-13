@@ -55,6 +55,10 @@ namespace FPTBookstore.Models.Data
                 .IsUnicode(false);
 
             modelBuilder.Entity<Customer>()
+                .Property(e => e.ConfirmPassword)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Customer>()
                 .HasMany(e => e.Orders)
                 .WithRequired(e => e.Customer)
                 .WillCascadeOnDelete(false);

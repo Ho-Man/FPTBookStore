@@ -21,13 +21,11 @@ namespace FPTBookstore.Controllers
 
 		//GET : /Book/TopDateBook : show 6 new books updated by update date
 		//Parital View : TopDateBook
-		public ActionResult TopDateBook()
+		public ActionResult TopDateBook2()
 		{
 			var result = new BookProcess().NewDateBook(6);
 			return PartialView(result);
 		}
-
-		//GET : /Book/Details/:id : display details of book information
 		public ActionResult Details(int id)
 		{
 			var result = new AdminProcess().GetIdBook(id);
